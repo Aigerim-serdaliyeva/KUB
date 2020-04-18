@@ -1,0 +1,22 @@
+[
+  {
+    "title": "О компании",
+    "hash": "",
+    "path": "/"
+  },
+  {
+    "title": "Как мы работаем",
+    "id": "work",
+    "path": "/work"
+  },
+  {
+    "title": "Проекты",
+    "id": "project",
+    "path": "/projects"
+  },
+  {
+    "title": "Контакты",
+    "hash": "contact",
+    "path": "/"
+  }
+]

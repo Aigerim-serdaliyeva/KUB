@@ -1,0 +1,19 @@
+{
+  // "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "npm",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 4,
+  "eslint.validate": [
+    "javascript",
+    "vue"
+  ],
+  "[vue]": {
+    "editor.formatOnSave": false
+  },
+  "css.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.enable": true
+}

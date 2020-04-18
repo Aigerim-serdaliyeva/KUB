@@ -1,0 +1,48 @@
+.all-full {
+    @apply h-full w-full;
+}
+
+.section {
+  @apply pt-140px pb-80px
+}
+
+.arrow {
+  @apply relative px-10px tracking-tighter leading-snug uppercase inline-block text-white z-10 text-13px
+}
+
+.button {
+  @apply text-14px border border-solid border-white border-2 outline-none rounded-5 w-full py-20px px-25px
+}
+
+.absolute-l-t {
+  @apply absolute top-0 left-0;
+}
+
+.input {
+  @apply bg-#EBEBEB max-w-550px w-full text-center py-12px px-15px text-18px mt-5px
+}
+
+.input::placeholder {
+    @apply text-#A4A4A4 font-light
+}
+
+.input-div {
+  @apply block mb-20px
+}
+
+.input-title {
+  @apply text-#474747 font-normal
+}
+
+.input-required {
+  @apply text-12px block text-tomato-color pl-10px pt-10px
+}
+
+
+
+@screen lg {
+
+}
+
+
+
