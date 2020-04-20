@@ -6,14 +6,16 @@
             <img src="../../assets/img/employee-figure-1.svg" />
         </div>
         <div class="container">
-            <SectionTitle section-title="Как мы Работаем" />
+            <SectionTitle>Как мы Работаем</SectionTitle>
             <div class="flex flex-wrap justify-center mt-80px md:mt-100px">
                 <About
                     v-for="(work, index) in works"
                     :key="`work-${index + 1}`"
                     class="max-w-250px h-200px mx-50px mb-100px pt-50px sm:pt-40px"
                     :text="work.title"
-                    :img-path="require(`../../assets/img/work.png`)"
+                    :img-path="
+                        require(`../../assets/img/work-${index + 1}.png`)
+                    "
                     :class="'wow ' + work.wow"
                     data-wow-duration="1.5s"
                 />

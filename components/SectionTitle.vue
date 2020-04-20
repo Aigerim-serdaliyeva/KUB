@@ -3,20 +3,13 @@
         <h2
             class="font-raleway font-bold text-accent-text border-b-2 border-solid border-tomato-color inline-block sm:px-25px text-36px md:text-40px lg:text-48px"
         >
-            {{ sectionTitle }}
+            <slot />
         </h2>
     </div>
 </template>
 
 <script>
-export default {
-    props: {
-        sectionTitle: {
-            type: String,
-            default: ''
-        }
-    }
-};
+export default {};
 </script>
 
 <style lang="scss"></style>

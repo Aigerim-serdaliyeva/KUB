@@ -1,6 +1,6 @@
 <template>
     <div class="mt-90px md:mt-120px pt-40px">
-        <SectionTitle section-title="Наши проекты" />
+        <SectionTitle>Наши проекты</SectionTitle>
         <div class="project__block">
             <div class="container">
                 <div

@@ -36,7 +36,8 @@ export default {
         { src: '~plugins/vue-notification.client.js' },
         { src: '~/plugins/validate.js' },
         { src: '~plugins/vue-scrollmagic.client.js' },
-        { src: '~/plugins/wow.client.js', mode: 'client' }
+        { src: '~/plugins/wow.client.js', mode: 'client' },
+        { src: '~/plugins/anime.js' }
     ],
     /*
      ** Nuxt.js dev-modules

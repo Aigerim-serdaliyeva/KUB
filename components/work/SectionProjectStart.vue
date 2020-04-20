@@ -1,6 +1,6 @@
 <template>
     <div class="pt-40px">
-        <SectionTitle section-title="Как мы начинаем проект" />
+        <SectionTitle>Как мы начинаем проект</SectionTitle>
         <div
             class="section-start bg-no-repeat bg-cover py-70px -px-15px lg:mx-15px px-8px lg:px-0"
         >

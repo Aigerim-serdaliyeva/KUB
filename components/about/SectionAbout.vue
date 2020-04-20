@@ -2,7 +2,7 @@
     <div
         class="section-about bg-no-repeat bg-contain mt-80px pb-70px md:pb-110px"
     >
-        <SectionTitle section-title="О нас" />
+        <SectionTitle>О нас</SectionTitle>
         <div class="container mt-80px">
             <div
                 class="flex flex-wrap justify-center lg:justify-between lg:flex-no-wrap lg:mb-120px"

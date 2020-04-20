@@ -6,7 +6,10 @@
             class="white-block absolute center-position w-full max-w-1070px h-82px"
         ></div>
 
-        <div class="relative top-7px wow fadeInLeft" data-wow-delay="s">
+        <div
+            class="relative top-7px solution-1"
+            :class="{ 'opacity-0': !isPlayed }"
+        >
             <img
                 class="flex-shrink-0 max-w-170px w-full xl:max-w-210px"
                 src="../../assets/img/persons-1.svg"
@@ -35,8 +38,8 @@
         </div>
 
         <div
-            class="arrow arrow--after bg-accent-green -left-20px xl:left-0 whitespace-no-wrap wow fadeInLeft"
-            data-wow-delay="4.5s"
+            class="arrow arrow--after bg-accent-green -left-20px whitespace-no-wrap solution-2"
+            :class="{ 'opacity-0': !isPlayed }"
         >
             Решение устраивает инвестора
             <p
@@ -48,8 +51,8 @@
         </div>
 
         <div
-            class="mx-5px xl:mx-10px max-w-120px w-full xl:max-w-150px wow fadeInLeft"
-            data-wow-delay="5.5s"
+            class="mx-5px xl:mx-10px max-w-120px w-full xl:max-w-150px solution-3"
+            :class="{ 'opacity-0': !isPlayed }"
         >
             <img
                 class="flex-shrink-0 mx-auto"
@@ -58,8 +61,8 @@
         </div>
 
         <div
-            class="arrow arrow--after bg-accent-green whitespace-no-wrap wow fadeInLeft"
-            data-wow-delay="6.5s"
+            class="arrow arrow--after bg-accent-green whitespace-no-wrap solution-4"
+            :class="{ 'opacity-0': !isPlayed }"
         >
             полная РЕАЛИЗАЦИЯ ПРОЕКТА
             <p
@@ -70,8 +73,8 @@
         </div>
 
         <div
-            class="bag relative pb-10px ml-10px max-w-100px w-full xl:max-w-140px wow fadeInLeft"
-            data-wow-delay="7.5s"
+            class="bag relative pb-10px ml-10px max-w-100px w-full xl:max-w-140px solution-5"
+            :class="{ 'opacity-0': !isPlayed }"
         >
             <img class="mx-auto" src="../../assets/img/bag.svg" />
             <p class="absolute xl:center-left text-center mt-10px xl:mt-20px">
@@ -81,6 +84,18 @@
         </div>
     </div>
 </template>
+
+<script>
+import { mapGetters } from 'vuex';
+
+export default {
+    computed: {
+        ...mapGetters({
+            isPlayed: 'project-start/isPlayed'
+        })
+    }
+};
+</script>
 
 <style lang="scss">
 .white-block {
