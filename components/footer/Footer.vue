@@ -14,7 +14,8 @@
             </p>
         </div>
         <p class="text-#858585 mt-10px text-12px sm:text-13px">
-            All Rights Reserved 2019 «Корпорация Управления Бизнесом»
+            All Rights Reserved 2019
+            <span class="uppercase">«Корпорация Управления Бизнесом»</span>
         </p>
     </div>
 </template>

@@ -60,20 +60,23 @@
             >
                 <p class="text-tomato-color pl-40px">Инвестор</p>
                 <p class="text-accent-green pl-10px">
-                    Предстедатель КУБ <br />
-                    комерческий директор
+                    Председатель КУБ <br />
+                    Коммерческий директор
                 </p>
             </div>
         </div>
 
-        <div class="text-center text-13px mt-80px mb-30px">
+        <div class="text-center text-13px mt-165px mb-30px">
             <p class="uppercase font-bold max-w-100px mx-auto mb-7px">
                 когда Решение устраивает инвестора
             </p>
-            <img class="mx-auto" src="../../assets/img/arrow-bottom.svg" />
+            <img
+                class="mx-auto w-30px"
+                src="../../assets/img/arrow-bottom.svg"
+            />
         </div>
 
-        <div class="max-w-120px w-full mx-auto mb-30px">
+        <div class="max-w-120px w-full mx-auto my-50px">
             <img class="flex-shrink-0" src="../../assets/img/persons-2.svg" />
         </div>
 
@@ -81,7 +84,10 @@
             <p class="uppercase font-bold max-w-100px mx-auto mb-7px">
                 полная РЕАЛИЗАЦИЯ ПРОЕКТА
             </p>
-            <img class="mx-auto" src="../../assets/img/arrow-bottom.svg" />
+            <img
+                class="mx-auto w-30px"
+                src="../../assets/img/arrow-bottom.svg"
+            />
         </div>
 
         <div class="bag relative pb-10px max-w-130px w-full mx-auto">

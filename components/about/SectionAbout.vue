@@ -5,7 +5,7 @@
         <SectionTitle>О нас</SectionTitle>
         <div class="container mt-80px">
             <div
-                class="flex flex-wrap justify-center lg:justify-between lg:flex-no-wrap lg:mb-120px"
+                class="flex flex-wrap justify-center lg:justify-between lg:flex-no-wrap lg:mb-100px"
             >
                 <About
                     v-for="(about, index) in abouts"
@@ -54,7 +54,10 @@
                 <div
                     class="mt-20px md:mt-40px md:mt-0 w-8/12 md:w-4/12 wow fadeInRight"
                 >
-                    <img src="../../assets/img/employees-kub.svg" />
+                    <img
+                        class="max-w-350px w-full"
+                        src="../../assets/img/employees-kub.svg"
+                    />
                 </div>
             </div>
         </div>

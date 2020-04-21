@@ -53,6 +53,9 @@ module.exports = {
                 '5': '5px',
                 '32px': '32px'
             },
+            zIndex: {
+                '-1': '-1'
+            },
             colors: {
                 'accent-green': '#26473B',
                 'accent-text': '#545454',
@@ -132,10 +135,13 @@ module.exports = {
                 '380px': '380px',
                 '300px': '300px',
                 '250px': '250px',
+                '230px': '230px',
                 '200px': '200px',
                 '195px': '195px',
                 '170px': '170px',
                 '165px': '165px',
+                '160px': '160px',
+                '150px': '150px',
                 '145px': '145px',
                 '140px': '140px',
                 '130px': '130px',
@@ -265,7 +271,8 @@ module.exports = {
                 '70px': '70px'
             },
             maxHeight: {
-                '80px': '80px'
+                '80px': '80px',
+                '1000px': '1000px'
             },
             screens: {
                 xl: '1230px'

@@ -12,11 +12,17 @@
                 </div>
             </div>
             <div class="flex">
-                <a href=""><img src="../../assets/img/twitter.png"/></a>
-                <a href="" class="mx-10px md:mx-20px"
+                <a
+                    href="https://m.facebook.com/kubqazaqstan/"
+                    target="_blank"
+                    class="mx-10px md:mx-20px"
                     ><img src="../../assets/img/facebook.png"
                 /></a>
-                <a href=""><img src="../../assets/img/instagram.png"/></a>
+                <a
+                    href="https://instagram.com/kub_kz?igshid=197kxls2ck83i"
+                    target="_blank"
+                    ><img src="../../assets/img/instagram.png"
+                /></a>
             </div>
         </div>
     </div>

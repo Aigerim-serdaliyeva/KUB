@@ -31,8 +31,8 @@
             >
                 <p class="text-tomato-color pl-20px">Инвестор</p>
                 <p class="text-accent-green pl-25px">
-                    Предстедатель КУБ <br />
-                    комерческий директор
+                    Председатель КУБ <br />
+                    Коммерческий директор
                 </p>
             </div>
         </div>

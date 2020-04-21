@@ -13,7 +13,7 @@
         >
             {{ title }}
         </h3>
-        <p class="font-light text-justify">{{ text }}</p>
+        <p class="font-light ">{{ text }}</p>
     </div>
 </template>
 

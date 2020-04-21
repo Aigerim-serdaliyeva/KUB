@@ -4,7 +4,7 @@
     >
         <img
             src="../../assets/img/kub-contact.svg"
-            class="mx-auto mb-12px sm:mb-30px w-80px sm:w-auto"
+            class="mx-auto mb-12px sm:mb-30px w-80px sm:w-auto max-w-130px xl:max-w-130px w-full"
         />
 
         <a href="tel:+77272777606" class="text-18px sm:text-22px">

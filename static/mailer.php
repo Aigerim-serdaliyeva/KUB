@@ -20,8 +20,8 @@ try {
     $mail->CharSet 	= 'utf-8';                              // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('no-reply@muratov.kz', 'Muratov Partners');
-    $mail->addAddress("info@muratov.kz");
+    $mail->setFrom('no-reply@muratov.kz', 'KUB');
+    $mail->addAddress("info@kub.kz");
     $mail->addCC("aigerim.serdaliyeva.t@gmail.com");
 
     $_POST = json_decode(file_get_contents('php://input'), true);

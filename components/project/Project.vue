@@ -1,13 +1,14 @@
 <template>
-    <div class="text-center mb-50px md:mb-100px">
+    <div class="text-center mb-50px md:mb-60px">
         <div
-            class="project__img bg-white flex flex-col items-center justify-center rounded-5 mx-auto mb-18px w-200px h-200px md:w-250px md:h-250px "
+            class="project__img bg-white flex flex-col items-center justify-center rounded-5 mx-auto mb-18px w-200px h-200px md:w-230px md:h-230px "
         >
             <img :src="imgPath" />
         </div>
-        <h3 class="text-white text-16px md:text-18px font-raleway">
-            {{ title }}
-        </h3>
+        <h3
+            class="text-white text-16px md:text-18px max-w-250px mx-auto w-full font-raleway"
+            v-html="title"
+        ></h3>
     </div>
 </template>
 

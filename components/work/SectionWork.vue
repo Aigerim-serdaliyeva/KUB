@@ -6,7 +6,7 @@
             <img src="../../assets/img/employee-figure-1.svg" />
         </div>
         <div class="container">
-            <SectionTitle>Как мы Работаем</SectionTitle>
+            <SectionTitle>Как мы работаем</SectionTitle>
             <div class="flex flex-wrap justify-center mt-80px md:mt-100px">
                 <About
                     v-for="(work, index) in works"
