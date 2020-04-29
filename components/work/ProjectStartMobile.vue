@@ -60,7 +60,7 @@
             >
                 <p class="text-tomato-color pl-40px">Инвестор</p>
                 <p class="text-accent-green pl-10px">
-                    Председатель КУБ <br />
+                    Представитель КУБ <br />
                     Коммерческий директор
                 </p>
             </div>
