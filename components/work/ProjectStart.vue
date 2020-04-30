@@ -40,11 +40,7 @@ export default {
     data() {
         return {
             starts: require('../../assets/json/starts'),
-            startAnime: this.$anime.timeline({
-                easing: 'linear',
-                loop: false,
-                autoplay: false
-            })
+            startAnime: null
         };
     },
     computed: {
@@ -60,7 +56,12 @@ export default {
     },
     mounted() {
         if (!this.isPlayed) {
-            this.startAnime
+            this.startAnime = this.$anime
+                .timeline({
+                    easing: 'linear',
+                    loop: false,
+                    autoplay: false
+                })
                 .add(this.getStartAnime('.solution-1'))
                 .add(this.getStartAnime('.start-1'))
                 .add(this.getStartAnime('.start-2'))

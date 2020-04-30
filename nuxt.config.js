@@ -35,9 +35,9 @@ export default {
         { src: '~plugins/object-fit-images.client.js' },
         { src: '~plugins/vue-notification.client.js' },
         { src: '~/plugins/validate.js' },
-        { src: '~plugins/vue-scrollmagic.client.js' },
+        { src: '~plugins/vue-scrollmagic.client.js', mode: 'client' },
         { src: '~/plugins/wow.client.js', mode: 'client' },
-        { src: '~/plugins/anime.js' }
+        { src: '~/plugins/anime.js', mode: 'client' }
     ],
     /*
      ** Nuxt.js dev-modules
