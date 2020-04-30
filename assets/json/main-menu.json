@@ -10,11 +10,6 @@
     "path": "/work"
   },
   {
-    "title": "Проекты",
-    "id": "project",
-    "path": "/projects"
-  },
-  {
     "title": "Контакты",
     "hash": "contact",
     "path": "/"
